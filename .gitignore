@@ -4,3 +4,4 @@ jupyterlab/staging
 jupyterlab/static
 jupyterlab/themes
 jupyterlab/imports.css
+.ipynb_checkpoints

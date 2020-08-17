@@ -11,7 +11,7 @@ let
 
   iHaskell = jupyter.kernels.iHaskellWith {
     name = "haskell";
-    packages = p: with p; [ diagrams ihaskell-diagrams ];
+    packages = p: with p; [ diagrams ihaskell-diagrams ihaskell-blaze ihaskell-charts SVGFonts palette blaze Chart MissingH ];
   };
 
   jupyterEnvironment =
