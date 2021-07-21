@@ -10,6 +10,7 @@ let
   };
 
   iHaskell = jupyter.kernels.iHaskellWith {
+    extraIHaskellFlags = "--codemirror Haskell"; # for jupyterlab syntax highlighting
     name = "haskell";
     packages = p: with p; [ diagrams ihaskell-diagrams ihaskell-blaze ihaskell-charts SVGFonts palette blaze Chart MissingH Rasterific ];
   };
